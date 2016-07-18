@@ -1,0 +1,71 @@
+.mainWrapper {
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+
+.mainWrapper aside {
+    display: table-cell;
+    float: none;
+    height: 100%;
+    padding: 0;
+    vertical-align: top;
+}
+
+.mainWrapper .left-side {
+    background: none repeat scroll 0 0 #e5e8ef;
+    border-radius: 4px 0 0 4px;
+    width: 25%;
+}
+
+.mainWrapper .right-side {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 0 4px 4px 0;
+    width: 75%;
+}
+
+.usercheck {
+    padding: 20px;
+}
+
+.clockText {
+    margin-top: 200px;
+    font-size: 3em;
+    font-color: #dfdfdf;
+    margin-left: 20px;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.clockText1 {
+    font-size: 2.5em;
+    font-color: #dfdfdf;
+    margin-left: 20px;
+}
+
+.clockText2 {
+    font-size: 1.5em;
+    font-color: #DDDDDD;
+    margin-left: 20px;
+}
+
+
+.thumbnail {
+    width: 70px;
+    height: 90px;
+    margin-right: 20px;
+}
+
+.media-heading {
+    padding: 2px;
+}
+
+.label {
+    padding: 2px;
+}
+
