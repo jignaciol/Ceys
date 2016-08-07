@@ -17,8 +17,12 @@ ceys.views.main = Backbone.View.extend({
             weekday: this.day[ this.date.getDay() ],
             month: this.month[ this.date.getMonth() ]
         })
-        ceys.app.userCheck = new ceys.views.userCheck({ el: this.$(".usercheck") })
+        ceys.app.listaEvento = new ceys.collections.listaEvento()
+
         ceys.app.clockView = new ceys.views.clockView({ el: this.$(".reloj"), model: ceys.app.clock })
+        ceys.app.checkForm = new ceys.views.checkForm({ el: this.$(".checkform"), collection: ceys.app.listaEvento })
+        ceys.app.userCheck = new ceys.views.userCheck({ el: this.$(".usercheck")  })
+        ceys.app.checkList = new ceys.views.checkList({ el: this.$(".checklist") })
     },
 
     initialize: function() {
